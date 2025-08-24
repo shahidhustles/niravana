@@ -1,3 +1,4 @@
+import { SignOutButton } from "@/components/clerk/SignOutButton";
 import { Text, View } from "react-native";
 
 export default function Index() {
@@ -9,7 +10,8 @@ export default function Index() {
         alignItems: "center",
       }}
     >
-      <Text>Nirvana</Text>
+      <Text>Home Page</Text>
+      <SignOutButton />
     </View>
   );
 }

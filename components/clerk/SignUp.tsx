@@ -1,6 +1,6 @@
 import { useSignUp } from '@clerk/clerk-expo';
 import { useState } from 'react';
-import { ActivityIndicator, StyleSheet, View } from 'react-native';
+import { ActivityIndicator, View } from 'react-native';
 import InitialSignUpForm from './forms/InitialSignUpForm';
 import VerifyEmailCodeSignUpForm from './forms/VerifyEmailCodeSignUpForm';
 
